@@ -2,6 +2,8 @@
 // Pre-req: It used to search any element in a sorted array
 // Time complexity: O(logN) -> Logarithmic
 
+// Here we have used first and last to divide the numbers list
+
 function binarySearch(numbersList, targetValue) {
     let first = 0;
     let last = numbersList.length - 1;
